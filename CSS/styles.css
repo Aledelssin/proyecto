@@ -1,0 +1,114 @@
+html,body {
+    width: 90;
+    
+    background-color: #f5f0f0;
+}
+
+h1 {
+
+    color: rgb(219, 142, 40);
+    background-image: -moz-element(IMG/fondo.jpg); 
+    font: small-caps 200% serif
+}
+
+h2 {
+    color: 
+
+}
+
+img {
+    
+    width: 50px;
+    height: 50px;
+
+}
+header {
+        
+    display:block;
+    background:#286af0;
+    padding:10px 0px;
+}
+section {
+    width: 79%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    border: 1px solid rgb(230, 187, 187);
+    width: 19%;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px; 
+    clear: center;
+    background: #e5e6e9;
+    text-align: center;
+    color: #fff;
+}
+
+figure {
+    display: table; margin: 0 auto;
+}
+
+#menu ul li {
+    background-color:#5e8bd4;
+}
+
+#menu ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#menu ul a {
+display:block;
+color:#fff;
+text-decoration:none;
+font-weight:400;
+font-size:15px;
+padding:10px;
+font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+#menu ul li {
+position:relative;
+float:left;
+margin:0;
+padding:0;
+}
+
+#menu ul li:hover {
+background:hsl(217, 82%, 68%);
+}
+
+#menu ul ul {
+display:none;
+position:absolute;
+top:100%;
+left:0;
+padding:0;
+}
+
+#menu ul ul li {
+float:none;
+width:150px
+}
+
+#menu ul ul a {
+line-height:120%;
+padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+display:block;
+}
